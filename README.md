@@ -1,5 +1,5 @@
-# Advent Calendar PowerApp
-Welcome to the Advent Calendar PowerApp. This PowerApp template provides an adjustable advent calendar for your company or team. It can be easily imported into your (default) environment and shared within the organization with no additional connector needed.
+# Calendar PowerApp / Countdown PowerApp
+Welcome to the alendar PowerApp / Countdown PowerApp. This project was based on Nico Schreder's project on an advent calendar. This PowerApp template provides an adjustable advent calendar for your company or team. It can be easily imported into your (default) environment and shared within the organization with no additional connector needed.
 
 **Content**
 1. [Technical Requirements](#Technical-Requirements)

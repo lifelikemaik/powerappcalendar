@@ -120,5 +120,11 @@ If you want to customize the advent calendar and import your content, you can st
 
 **Information:** Excel is formatting links differently as PowerApps is processing it. To ensure a working solution, make sure that you only include text values instead of links.
 
+## Use as a countdown
+
+The 10th entry in the Excel sheet is the date for the countdown. It can be changed for the desired date. It is also possible to hardcode the date in the PowerApp for events like Easter.
+
+[Countdown](/Readme/Customization/countdown.png)
+
 # Pin the Advent Calendar app in Teams for all users
 How to [pin the Advent Calendar app in Teams for all users](/Readme/Installation/pintoteams.md).

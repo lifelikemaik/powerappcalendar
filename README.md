@@ -122,7 +122,7 @@ If you want to customize the advent calendar and import your content, you can st
 
 ## Use as a countdown
 
-The 10th entry in the Excel sheet is the date for the countdown. It can be changed for the desired date. It is also possible to hardcode the date in the PowerApp for events like Easter.
+The 10th entry in the Excel sheet is the date for the countdown. It can be changed for the desired date. It is also possible to hardcode the date in the PowerApp for events like Easter. Otherwise, it is possible to enter a fixed date for the countdown counter, e.g. Text(DateDiff( Now(), DateValue("17/4/2022")))
 
 ![Countdown](/Readme/Customization/countdown.png)
 

@@ -8,12 +8,12 @@ Welcome to the Calendar PowerApp / Countdown PowerApp. This project was based on
 4. [Customization](#Customization)
     1. [Introduction text](#I-want-to-change-the-introduction-text-on-the-left-side)
     2. [Logo or background image](#I-want-to-change-the-logo-or-background-image)
-    3. [Change content of the advent calendar](#I-want-to-change-the-content-of-the-advent-calendar)
+    3. [Change content of the calendar](#I-want-to-change-the-content-of-the-calendar)
     4. [Change name, description, icon, or background color](#i-want-to-change-the-powerapp-icon-name-description-or-background-color-during-startup)
     5. [Republishing](#Republishing-the-app) 
 5. [Content packs](#Content-packs)
 6. [Customize the content](#Customize-the-content)
-7. [Pin the Advent Calendar app in Teams for all users](/Readme/Installation/pintoteams.md)
+7. [Pin the Calendar app in Teams for all users](/Readme/Installation/pintoteams.md)
 
 ## Technical Requirements
 * Power Platform license (dedicated license e.g., "Power Apps per User" or included with your Microsoft 365 license)
@@ -22,7 +22,7 @@ Welcome to the Calendar PowerApp / Countdown PowerApp. This project was based on
 * Screen resolution of 1366x768 pixels (minimum)
 
 ## Download
-There are multiple versions of the advent calendar app with content packs pre-installed:
+There are multiple versions of the calendar app with content packs pre-installed:
 - [Easter Calendar v1](/App/Eastercalendar_20220127144017.zip)
 - [Countdown Calendar](/App/Countdowncalendar_20220127144049.zip)
 - [Advent Calendar Teams Edition (German)](/App/AdventCalendarTeamsDE.zip).
@@ -44,12 +44,12 @@ There are multiple versions of the advent calendar app with content packs pre-in
 
 ![PowerApps Studio](/Readme/Installation/Installation%20Step%203.png)
 
-4. After the import, you can customize the advent calendar Power App using the "Open app" link or app explorer in the left navigation panel. Otherwise, you can share it immediately within your company and your colleagues:
+4. After the import, you can customize the calendar Power App using the "Open app" link or app explorer in the left navigation panel. Otherwise, you can share it immediately within your company and your colleagues:
 
 ![PowerApps Studio](/Readme/Installation/Installation%20Step%204.png)
 
 ## Customization
-You have several options available to customize the advent calendar PowerApp. To start with the customization process, you must open the app in edit mode using [PowerApps Studio](https://make.powerapps.com):
+You have several options available to customize the calendar PowerApp. To start with the customization process, you must open the app in edit mode using [PowerApps Studio](https://make.powerapps.com):
 
 ![PowerApps Studio](/Readme/Customization/Customization%20Step%201.png)
 
@@ -69,7 +69,7 @@ To change the background image, you must click on "CalendarScreen" in the tree v
 
 ![PowerApps Studio](/Readme/Customization/Customization%20Background%20Step%201.png)
 
-### I want to change the content of the advent calendar
+### I want to change the content of the calendar
 1. Open the data section on the left side and remove the existing "Content" data source by clicking on "..." and then "Remove":
 
 ![PowerApps Studio](/Readme/Customization/Customization%20Content%20Step%201.png)
@@ -101,11 +101,12 @@ You can change the icon in the app described [here](https://docs.microsoft.com/e
 ## Content packs
 | Name | Description | Link |
 |---|---|---|
+| D365 | A content pack specific with life hacks for Dynamics 365. | [D365 Content Pack](https://github.com/lifelikemaik/powerappcalendar/blob/main/Content/Dynamics/10%20Content%20Pack%20D365Basics.xlsx)
 | Teams | A content pack specific with life hacks for Microsoft Teams. | [Teams (German) Content Pack](https://github.com/nschreder/powerappadventcalendar/raw/main/Content/Teams/Content%20Pack%20Deutsch.xlsx) or [Teams (English) Content Pack](https://github.com/nschreder/powerappadventcalendar/raw/main/Content/Teams/Content%20Pack%20English.xlsx) |
 | Power Platform | A content pack specific with life hacks for the Microsoft Power Platform. | [Power Platform Content Pack](https://github.com/nschreder/powerappadventcalendar/raw/main/Content/Power%20Platform/Content%20Pack.xlsx) |
 
 ## Customize the content
-If you want to customize the advent calendar and import your content, you can start with downloading and editing the [template](https://github.com/nschreder/powerappadventcalendar/raw/main/Content/Template/Template.xlsx) in Microsoft Excel. After adjusting it you can [change the content of the advent calendar](#I-want-to-change-the-content-of-the-advent-calendar).
+If you want to customize the calendar and import your content, you can start with downloading and editing the [template](https://github.com/nschreder/powerappadventcalendar/raw/main/Content/Template/Template.xlsx) in Microsoft Excel. After adjusting it you can [change the content of the calendar](#I-want-to-change-the-content-of-the-calendar).
 
 ![Excel](/Readme/Customization/Customization%20Content%20Step%205.png)
 
@@ -113,7 +114,7 @@ If you want to customize the advent calendar and import your content, you can st
 |---|---|
 | Title | The title for the entry. |
 | Day | The day for the entry. It only can be opend during/after the day. |
-| Type | The advent calendar can show different types of content. The types "Image", "Video", and "PDF" will open the content in the specific player/reader, and "URL" will redirect the user directly to the source by opening a new browser tab. |
+| Type | The calendar can show different types of content. The types "Image", "Video", and "PDF" will open the content in the specific player/reader, and "URL" will redirect the user directly to the source by opening a new browser tab. |
 | Content | The content shown after opening the entry (URL). |
 | Link (optional) | This optional attribute shows a link below the content, and the user can get additional information (URL). |
 | Index | The index of the entry. E.g., the first entry is "1", the 2nd entry in the 3rd line is "14". |
@@ -126,5 +127,5 @@ The 10th entry in the Excel sheet is the date for the countdown. It can be chang
 
 ![Countdown](/Readme/Customization/countdown.png)
 
-# Pin the Advent Calendar app in Teams for all users
-How to [pin the Advent Calendar app in Teams for all users](/Readme/Installation/pintoteams.md).
+# Pin the Calendar app in Teams for all users
+How to [pin the Calendar app in Teams for all users](/Readme/Installation/pintoteams.md).

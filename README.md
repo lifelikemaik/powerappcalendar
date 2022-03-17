@@ -23,8 +23,8 @@ Welcome to the Calendar PowerApp / Countdown PowerApp. This project was based on
 
 ## Download
 There are multiple versions of the calendar app with content packs pre-installed:
-- [Easter Calendar v1](/App/Eastercalendar_20220127144017.zip)
-- [Countdown Calendar](/App/Countdowncalendar_20220127144049.zip)
+- [Easter Calendar](/App/EasterCalenderD365.zip)
+- [Countdown Calendar](/App/CountdownCalenderD365.zip)
 - [Advent Calendar Teams Edition (German)](/App/AdventCalendarTeamsDE.zip).
 - [Advent Calendar Teams Edition (English)](/App/AdventCalendarTeamsEN.zip).
 - [Advent Calendar Power Platform Edition](/App/AdventCalendarPowerPlatform.zip).
